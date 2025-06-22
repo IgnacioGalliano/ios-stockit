@@ -29,7 +29,8 @@ struct URLBuilder {
         #elseif DEBUG
         baseURL = Constants.localHost
         #endif
-        if let customBaseURL = customBaseURL {
+        if let customBaseURL = customBaseURL,
+           !customBaseURL.isEmpty {
             baseURL = customBaseURL
         }
         return baseURL + Constants.apiPath + Constants.versionPath
