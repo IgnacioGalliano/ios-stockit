@@ -1,0 +1,68 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "Bar Code" : {
+
+    },
+    "Base URL" : {
+
+    },
+    "Cargando..." : {
+
+    },
+    "Current Quantity" : {
+
+    },
+    "Description" : {
+
+    },
+    "Email" : {
+
+    },
+    "Login" : {
+
+    },
+    "Logout" : {
+
+    },
+    "Next Quantity" : {
+
+    },
+    "Password" : {
+
+    },
+    "Product" : {
+
+    },
+    "ProductList" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Product List"
+          }
+        }
+      }
+    },
+    "Quantity" : {
+
+    },
+    "Save" : {
+
+    },
+    "Settings" : {
+
+    },
+    "StockIt" : {
+
+    },
+    "URL Photo" : {
+
+    }
+  },
+  "version" : "1.0"
+}

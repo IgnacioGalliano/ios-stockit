@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6651D8342D6FD6A600CFECFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6651D81B2D6FD6A400CFECFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6651D8222D6FD6A400CFECFF;
+			remoteInfo = StockIt;
+		};
+		6651D83E2D6FD6A600CFECFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6651D81B2D6FD6A400CFECFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6651D8222D6FD6A400CFECFF;
+			remoteInfo = StockIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6651D8232D6FD6A400CFECFF /* StockIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6651D8332D6FD6A600CFECFF /* StockItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6651D83D2D6FD6A600CFECFF /* StockItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		66D20D312D76774B00BB0BC7 /* Exceptions for "StockIt" folder in "StockIt" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6651D8222D6FD6A400CFECFF /* StockIt */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6651D8252D6FD6A400CFECFF /* StockIt */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				66D20D312D76774B00BB0BC7 /* Exceptions for "StockIt" folder in "StockIt" target */,
+			);
+			path = StockIt;
+			sourceTree = "<group>";
+		};
+		6651D8362D6FD6A600CFECFF /* StockItTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StockItTests;
+			sourceTree = "<group>";
+		};
+		6651D8402D6FD6A600CFECFF /* StockItUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StockItUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6651D8202D6FD6A400CFECFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D8302D6FD6A600CFECFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D83A2D6FD6A600CFECFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6651D81A2D6FD6A400CFECFF = {
+			isa = PBXGroup;
+			children = (
+				6651D8252D6FD6A400CFECFF /* StockIt */,
+				6651D8362D6FD6A600CFECFF /* StockItTests */,
+				6651D8402D6FD6A600CFECFF /* StockItUITests */,
+				6651D8242D6FD6A400CFECFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6651D8242D6FD6A400CFECFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6651D8232D6FD6A400CFECFF /* StockIt.app */,
+				6651D8332D6FD6A600CFECFF /* StockItTests.xctest */,
+				6651D83D2D6FD6A600CFECFF /* StockItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6651D8222D6FD6A400CFECFF /* StockIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6651D8472D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockIt" */;
+			buildPhases = (
+				6651D81F2D6FD6A400CFECFF /* Sources */,
+				6651D8202D6FD6A400CFECFF /* Frameworks */,
+				6651D8212D6FD6A400CFECFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6651D8252D6FD6A400CFECFF /* StockIt */,
+			);
+			name = StockIt;
+			packageProductDependencies = (
+			);
+			productName = StockIt;
+			productReference = 6651D8232D6FD6A400CFECFF /* StockIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6651D8322D6FD6A600CFECFF /* StockItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6651D84A2D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockItTests" */;
+			buildPhases = (
+				6651D82F2D6FD6A600CFECFF /* Sources */,
+				6651D8302D6FD6A600CFECFF /* Frameworks */,
+				6651D8312D6FD6A600CFECFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6651D8352D6FD6A600CFECFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6651D8362D6FD6A600CFECFF /* StockItTests */,
+			);
+			name = StockItTests;
+			packageProductDependencies = (
+			);
+			productName = StockItTests;
+			productReference = 6651D8332D6FD6A600CFECFF /* StockItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6651D83C2D6FD6A600CFECFF /* StockItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6651D84D2D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockItUITests" */;
+			buildPhases = (
+				6651D8392D6FD6A600CFECFF /* Sources */,
+				6651D83A2D6FD6A600CFECFF /* Frameworks */,
+				6651D83B2D6FD6A600CFECFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6651D83F2D6FD6A600CFECFF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6651D8402D6FD6A600CFECFF /* StockItUITests */,
+			);
+			name = StockItUITests;
+			packageProductDependencies = (
+			);
+			productName = StockItUITests;
+			productReference = 6651D83D2D6FD6A600CFECFF /* StockItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6651D81B2D6FD6A400CFECFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6651D8222D6FD6A400CFECFF = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6651D8322D6FD6A600CFECFF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6651D8222D6FD6A400CFECFF;
+					};
+					6651D83C2D6FD6A600CFECFF = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6651D8222D6FD6A400CFECFF;
+					};
+				};
+			};
+			buildConfigurationList = 6651D81E2D6FD6A400CFECFF /* Build configuration list for PBXProject "StockIt" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6651D81A2D6FD6A400CFECFF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6651D8242D6FD6A400CFECFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6651D8222D6FD6A400CFECFF /* StockIt */,
+				6651D8322D6FD6A600CFECFF /* StockItTests */,
+				6651D83C2D6FD6A600CFECFF /* StockItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6651D8212D6FD6A400CFECFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D8312D6FD6A600CFECFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D83B2D6FD6A600CFECFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6651D81F2D6FD6A400CFECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D82F2D6FD6A600CFECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6651D8392D6FD6A600CFECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6651D8352D6FD6A600CFECFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6651D8222D6FD6A400CFECFF /* StockIt */;
+			targetProxy = 6651D8342D6FD6A600CFECFF /* PBXContainerItemProxy */;
+		};
+		6651D83F2D6FD6A600CFECFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6651D8222D6FD6A400CFECFF /* StockIt */;
+			targetProxy = 6651D83E2D6FD6A600CFECFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6651D8452D6FD6A600CFECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6651D8462D6FD6A600CFECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6651D8482D6FD6A600CFECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StockIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockIt/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to read barcodes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6651D8492D6FD6A600CFECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StockIt/Preview Content\"";
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StockIt/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera to read barcodes.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6651D84B2D6FD6A600CFECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockIt";
+			};
+			name = Debug;
+		};
+		6651D84C2D6FD6A600CFECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StockIt";
+			};
+			name = Release;
+		};
+		6651D84E2D6FD6A600CFECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StockIt;
+			};
+			name = Debug;
+		};
+		6651D84F2D6FD6A600CFECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7HTR2GF3VY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nagda.StockItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StockIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6651D81E2D6FD6A400CFECFF /* Build configuration list for PBXProject "StockIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6651D8452D6FD6A600CFECFF /* Debug */,
+				6651D8462D6FD6A600CFECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6651D8472D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6651D8482D6FD6A600CFECFF /* Debug */,
+				6651D8492D6FD6A600CFECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6651D84A2D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6651D84B2D6FD6A600CFECFF /* Debug */,
+				6651D84C2D6FD6A600CFECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6651D84D2D6FD6A600CFECFF /* Build configuration list for PBXNativeTarget "StockItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6651D84E2D6FD6A600CFECFF /* Debug */,
+				6651D84F2D6FD6A600CFECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6651D81B2D6FD6A400CFECFF /* Project object */;
+}
